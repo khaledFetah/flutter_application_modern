@@ -34,15 +34,13 @@ class SplashScreen extends StatelessWidget {
                     minFontSize: 20,
                     maxFontSize: 26,
                   ),
-                  AutoSizeText(
-                    "From Khaled",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
-                    minFontSize: 20,
-                    maxFontSize: 26,
-                  ),
+                  AutoSizeText("From Khaled ",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                      ),
+                      minFontSize: 20,
+                      maxFontSize: 26),
                 ],
               ),
             )
